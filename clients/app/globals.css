@@ -1,0 +1,46 @@
+/* app/globals.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Background color */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin: 20px;
+  background: white; /* Add a background for the form */
+  padding: 20px; /* Add some padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+input {
+  margin: 5px 0; /* Vertical margin */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Make inputs full width */
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #0070f3; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Make button full width */
+}
+
+button:hover {
+  background-color: #005bb5; /* Darker shade on hover */
+}
